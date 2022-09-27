@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Formulario from './Formulario.js'
+import Perfil from './Perfil.js'
 
 function App() {
   return (
     <div className="App">
-      NO
+      <Formulario/>
+      <div><h1>EndPage</h1></div>
+      <Perfil/>
     </div>
   );
 }
